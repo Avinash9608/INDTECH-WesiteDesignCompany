@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./CreativeTool.css";
+import "./CreativeTool.css";
 // Import images (replace with your actual image paths)
 import tickCircle from "../../assets/images/tick-circle.svg";
 
