@@ -3,18 +3,18 @@
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  min-height: 400px; /* Increased height */
+  min-height: 400px;
   min-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 20px; /* Add margin to create gap between slides */
+  margin: 0 20px;
 }
 
 /* Gap between testimonial divs */
-.slick-slide > div {
-  margin: 0 170px; /* Add gap between slides */
-}
+/* .slick-slide > div {
+  margin: 0 170px;
+} */
 
 .testimonial_box-text {
   font-size: 20px; /* Larger font size */
@@ -34,8 +34,8 @@
 }
 
 .testimonial_box-img img {
-  width: 80% !important; /* Larger image size */
-  height: 80% !important;
+  width: 50px; /* Larger image size */
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -53,8 +53,8 @@
 }
 
 .com-btn img {
-  width: 40px; /* Larger arrow size */
-  height: 40px;
+  width: 15px; /* Larger arrow size */
+  height: 15px;
 }
 
 /* Dots Navigation */
@@ -87,7 +87,7 @@
 .rate {
   display: flex;
   justify-content: flex-start; /* Align stars to the left */
-  gap: 4px; /* Add gap between stars */
+  gap: 3px; /* Add gap between stars */
 }
 
 .rate input {
@@ -116,4 +116,8 @@
 
 .height {
   height: 500px;
+}
+
+.testimonial .slick-track {
+  padding-left: 32% !important;
 }
